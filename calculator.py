@@ -28,7 +28,26 @@ if __name__ == "__main__":
     calc = Calculator()
     print("This is a simple calculator class!")
     print("Example: addition: ", calc.add(1, 2))
+    print("Example: addition: ", calc.add(3, 4))
+
+    print("-----------------------------------")
+    
     print("Example: subtraction: ", calc.subtract(4, 2))
+    print("Example: subtraction: ", calc.subtract(6, 2))
+    
+    print("-----------------------------------")
+    
     print("Example: multiplication: ", calc.multiply(2, 3))
+    print("Example: multiplication: ", calc.multiply(7, 8))
+
+    print("-----------------------------------")
+    
     print("Example: division: ", calc.divide(10, 2))
+    print("Example: division: ", calc.divide(5, 2))
+
+    print("-----------------------------------")
+    
     print("Example: modulo: ", calc.modulo(10, 3))
+    print("Example: modulo: ", calc.modulo(5, 2))
+
+    print("-----------------------------------")
